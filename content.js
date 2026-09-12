@@ -800,7 +800,7 @@ const works = [
 
                 {
                     type: "video",
-                    src: "assets/videos/works/ntpmm/LowG.mp4"
+                    src: "assets/videos/works/ntpmm/Lowg.mp4"
                 },
 
                 {
