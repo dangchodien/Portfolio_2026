@@ -595,7 +595,7 @@ const works = [
 
         thumbnail:
 
-            "assets/images/works/LOLLA 2.png",
+            "assets/images/works/Lolla 2.png",
 
         description:
 
@@ -607,27 +607,27 @@ const works = [
 
                 {
                     type: "video",
-                    src: "assets/videos/works/Lolla/Lolla_GroovyRoom_1.mp4"
+                    src: "assets/videos/works/LOLLA/Lolla_GroovyRoom_1.mp4"
                 },
 
                 {
                     type: "video",
-                    src: "assets/videos/works/Lolla/Lolla_GroovyRoom_2.mp4"
+                    src: "assets/videos/works/LOLLA/Lolla_GroovyRoom_2.mp4"
                 },
 
                 {
                     type: "video",
-                    src: "assets/videos/works/Lolla/F1_Xray.mp4"
+                    src: "assets/videos/works/LOLLA/F1_Xray.mp4"
                 },
 
                 {
                     type: "video",
-                    src: "assets/videos/works/Lolla/Cockpit.mp4"
+                    src: "assets/videos/works/LOLLA/Cockpit.mp4"
                 },
 
                 {
                     type: "video",
-                    src: "assets/videos/works/Lolla/Tunnel.mp4"
+                    src: "assets/videos/works/LOLLA/Tunnel.mp4"
                 }
 
             ]
@@ -655,7 +655,7 @@ const works = [
 
         thumbnail:
 
-            "assets/images/works/Midnight 2.png",
+            "assets/images/works/MIDNIGHT 2.png",
 
         description:
 
