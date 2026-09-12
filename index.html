@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Dang Pham — Portfolio</title>
+
+
+    <!-- FONTS -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ==========================================
+         CURSOR
+    =========================================== -->
+
+    <div
+        class="cursor"
+        id="cursor"
+    >
+        <span>VIEW</span>
+    </div>
+
+
+
+    <!-- ==========================================
+         HERO
+    =========================================== -->
+
+    <main
+        class="landing-page"
+        id="top"
+    >
+
+
+        <!-- THREE.JS -->
+
+        <canvas
+            id="heroCanvas"
+        ></canvas>
+
+
+        <div
+            class="hero-overlay"
+        ></div>
+
+
+
+        <!-- NAV -->
+
+        <header
+            class="top-bar"
+        >
+
+
+            <a
+                href="#top"
+                class="site-name"
+                data-cursor="HOME"
+            >
+                <span id="name">
+                    DANG PHAM
+                </span>
+            </a>
+
+
+            <nav
+                class="navigation"
+            >
+
+                <a
+                    href="works.html"
+                    data-cursor="WORK"
+                >
+                    INDEX
+                </a>
+
+                <a
+                    href="about.html"
+                    data-cursor="ABOUT"
+                >
+                    ABOUT
+                </a>
+
+            </nav>
+
+
+        </header>
+
+
+
+        <!-- HERO TITLE -->
+
+        <section
+            class="hero-content"
+        >
+
+
+            <div
+                class="hero-title"
+            >
+
+                <h1
+                    id="titleLine1"
+                >
+                    DIGITAL
+                </h1>
+
+                <h1
+                    id="titleLine2"
+                >
+                    MEDIA
+                </h1>
+
+            </div>
+
+
+
+            <div
+                class="hero-meta"
+            >
+
+                <p
+                    id="role"
+                >
+                    VISUAL / 3D / INTERACTIVE
+                </p>
+
+
+                <div
+                    class="meta-right"
+                >
+
+                    <p
+                        id="location"
+                    >
+                        SAIGON, VIETNAM
+                    </p>
+
+                    <p
+                        id="year"
+                    >
+                        2026
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- HERO BOTTOM -->
+
+        <div
+            class="hero-bottom"
+        >
+
+
+            <a
+                href="#selected-works"
+                class="enter-button"
+                data-cursor="SCROLL"
+            >
+
+                <span class="arrow">
+                    ↓
+                </span>
+
+                <span>
+                    SELECTED WORKS
+                </span>
+
+            </a>
+
+
+            <div
+                class="status"
+            >
+
+                <span
+                    class="status-dot"
+                ></span>
+
+                AVAILABLE FOR EXPERIMENTAL PROJECTS
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- GRID -->
+
+        <div
+            class="grid-lines"
+            aria-hidden="true"
+        >
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ==========================================
+         SELECTED WORKS
+    =========================================== -->
+
+    <section
+        id="selected-works"
+        class="selected-works-section"
+    >
+
+
+        <!-- CAROUSEL UNDERLAY -->
+
+        <div
+            class="landing-carousel"
+            aria-hidden="true"
+        >
+
+            <div
+                class="landing-carousel-track"
+                id="landingCarouselTrack"
+            ></div>
+
+        </div>
+
+
+
+        <!-- DARKEN CAROUSEL -->
+
+        <div
+            class="selected-works-overlay"
+        ></div>
+
+
+
+        <!-- SECTION CONTENT -->
+
+        <div
+            class="selected-works-content"
+        >
+
+
+            <div
+                class="section-header"
+            >
+
+                <span>
+                    01 / SELECTED WORKS
+                </span>
+
+                <span>
+                    2024 — 2026
+                </span>
+
+            </div>
+
+
+
+            <div
+                class="selected-work-title-wrapper"
+            >
+
+
+                <a
+                    href="works.html"
+                    class="selected-work-title"
+                    data-cursor="OPEN"
+                >
+
+                    <span class="title-main">
+                        SELECTED
+                    </span>
+
+                    <span class="title-main title-offset">
+                        WORKS
+                    </span>
+
+
+                    <span
+                        class="title-arrow"
+                    >
+                        ↗
+                    </span>
+
+                </a>
+
+
+            </div>
+
+
+
+            <div
+                class="section-bottom-meta"
+            >
+
+                <span>
+                    PROJECT INDEX
+                </span>
+
+                <span>
+                    CLICK TO EXPLORE
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div
+            class="grid-lines"
+            aria-hidden="true"
+        >
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- ==========================================
+         ABOUT
+    =========================================== -->
+
+    <section
+        id="about"
+        class="about-section"
+    >
+
+
+        <div
+            class="section-header"
+        >
+
+            <span>
+                02 / ABOUT
+            </span>
+
+            <span>
+                DIGITAL MEDIA DESIGN
+            </span>
+
+        </div>
+
+
+        <div
+            class="about-title"
+        >
+
+            <h2>
+                ABOUT
+            </h2>
+
+            <h2>
+                ME
+            </h2>
+
+        </div>
+
+
+        <div
+            class="about-bottom"
+        >
+
+            <p>
+
+                VISUAL DESIGN<br>
+                MOTION / 3D<br>
+                INTERACTIVE MEDIA
+
+            </p>
+
+
+            <a
+                href="#"
+                data-cursor="ABOUT"
+            >
+                MORE ABOUT ↗
+            </a>
+
+
+        </div>
+
+
+
+        <div
+            class="grid-lines"
+            aria-hidden="true"
+        >
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- THREE.JS -->
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+    ></script>
+
+
+    <!-- GLB LOADER -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"
+    ></script>
+
+
+    <!-- DATA -->
+
+    <script
+        src="js/content.js"
+    ></script>
+
+
+    <!-- APP -->
+
+    <script
+        src="js/app.js"
+    ></script>
+
+
+</body>
+
+</html>
