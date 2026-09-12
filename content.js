@@ -344,7 +344,7 @@ const works = [
 
                 {
                     type: "video",
-                    src: "assets/videos/works/Vinav3/VinaV recap.mp4"
+                    src: "assets/videos/works/vinav3/VinaV recap.mp4"
                 },
 
                 {
@@ -354,7 +354,7 @@ const works = [
 
                 {
                     type: "video",
-                    src: "assets/videos/works/Vinav3/ROOFS_Breakdown.mp4"
+                    src: "assets/videos/works/vinav3/ROOFS_Breakdown.mp4"
                 },
 
             ]
@@ -400,12 +400,12 @@ const works = [
 
                 {
                     type: "video",
-                    src: "assets/videos/works/GreyD/MongTinh_Tree_2803.mp4"
+                    src: "assets/videos/works/greyd/MongTinh_Tree_2803.mp4"
                 },
 
                 {
                     type: "video",
-                    src: "assets/videos/works/GreyD/greyd_breakdown.mp4"
+                    src: "assets/videos/works/greyd/greyd_breakdown.mp4"
                 },
 
             ]
@@ -452,7 +452,7 @@ const works = [
 
                 {
                     type: "video",
-                    src: "assets/videos/works/awake/awake split view.mp4"
+                    src: "assets/videos/works/Awake/awake split view.mp4"
                 },
 
                 {
@@ -836,22 +836,22 @@ const works = [
             [
                 {
                     type: "video",
-                    src: "assets/videos/works/atsh/FDown.vn_Instagram_Video_Downloader_9111.mp4"
+                    src: "assets/videos/works/ATSH/FDown.vn_Instagram_Video_Downloader_9111.mp4"
                 },
 
                 {
                     type: "video",
-                    src: "assets/videos/works/atsh/FDown.vn_Instagram_Video_Downloader_8f6e.mp4"
+                    src: "assets/videos/works/ATSH/FDown.vn_Instagram_Video_Downloader_8f6e.mp4"
                 },
 
                 {
                     type: "video",
-                    src: "assets/videos/works/atsh/FDown.vn_Instagram_Video_Downloader_e317.mp4"
+                    src: "assets/videos/works/ATSH/FDown.vn_Instagram_Video_Downloader_e317.mp4"
                 },
 
                 {
                     type: "video",
-                    src: "assets/videos/works/atsh/FDown.vn_Instagram_Video_Downloader_c752.mp4"
+                    src: "assets/videos/works/ATSH/FDown.vn_Instagram_Video_Downloader_c752.mp4"
                 }
             ]
     },
